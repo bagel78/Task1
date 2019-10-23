@@ -1,144 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>AppSon</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" 
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="signin.css">
-    </head>
-    <body>
-        <header class="sticky-top">
-            <nav class="navbar navbar-expand-md navbar-light">
-                <div class="container">           
-                    <a href="homepage.html" class="navbar-logo">AppSon</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">
-                            <i class="navicon"></i>
-                        </span>
-                    </button> 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item mt-2">
-                                <a href="homepage.html">HOME</a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a href="#">FEATURES</a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a href="#">PRICING</a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a href="#">PAGES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="signup.html" class="btn btn-signup btn-primary btn-rounded">SIGN UP</a> 
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
 
-        <div class="mt-5 pt-5">
-            <h2 id="login">Log in</h2><br>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-               sed do eiusmod tempor incididunt ut labore <br>
-            et dolore magna aliqua. Lorem ipsum dolor sit amet. </p><br>
-            
-            <button class="btn btn-facebook mr-2 ml-2 mt-2">FACEBOOK</button>
-            <button class="btn btn-twitter mr-2 ml-2 mt-2">TWITTER</button>      
-        </div>
-        <form class="main-form">
-            <div class=" form-group mt-5 ml-auto mr-auto">
-                <p text-sm-center>OR</p>
-                <input type="email" class="form-control mt-5" placeholder="Email Address">             
-            </div>
-            <div class="form-group ml-auto mr-auto">   
-                <input type="password" class="form-control" placeholder="Password">
-            </div>
-            <div class="form-link mb-4">
-                <a href="#" class="mr-2">Forgot Password?</a>
-                <a href="signup.html" class="ml-2">Create a free account?</a>
-            </div>
-            <button type="submit" class="btn btn-login btn-rounded btn-primary mb-5">Login</button>
-        </form>
-        <!--FOOTER-->
-        <footer class="page-footer">
-            <div class="container-fluid text-left ">
-                <div class="row footer-row">
-                    <div class="col-md-12 col-lg-6 mt-5 ">
-                        <a href="homepage.html" class="footer-brand">AppSon</a>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                             do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                             tempor incididunt ut labore
-                        </p>
+body, html 
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand';
+    background-color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+a {color: #929292;}
+a:hover {text-decoration: none; color: #0f7bff}
+.btn:hover {color: white;}
+li {list-style-type: none;}
+h5 {font-weight: 600;}
+.navbar {background-color: #f5fcfd; font-weight: bold;}
+.navbar-logo {color: #0f7bff; font-size: 30px;}
+.nav-item {padding-right: 15px; padding-left: 15px;}
+.navicon {color: #0f7bff;}
 
-                        <div class="row icon">
-                            <div class="fb-icon">
-                                <a href=""><img src="img/пусто.png"></a>
-                            </div>
-                            <div class="tw-icon">
-                                <a href="#"><img src="img/пусто.png"></a>
-                            </div>
-                            <div class="yt-icon">
-                                <a href="#"><img src="img/пусто.png"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-5">
-                        <h5>Company</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Press</a></li>
-                            <li><a href="">Reviews</a></li>
-                            <li><a href="">Partners</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 mt-5">
-                        <h5>Blog</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="">Finance</a></li>
-                            <li><a href="">Technology</a></li>
-                            <li><a href="">Mobile</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 mt-5">
-                        <h5>Integrations</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="">Android App</a></li>
-                            <li><a href="">IOS App</a></li>
-                            <li><a href="">Windows App</a></li>
-                            <li><a href="">VR Box App</a></li>
-                        </ul>
-                    </div> 
-                </div>
-                <hr>
-                
-            <div class="footer-end">
-                <div class="container">
-                    <div class="row">
-                        <div class=" mt-3 footer-end-copyright col-xl-6 col-lg-12">
-                            <p>© 2018 Copyright, All Rights Reserved by AppSon</p>
-                        </div>                      
-                        <div class="col-xl-6 col-lg-12">
-                            <ul class="info mt-3 footer-end-links">
-                                <li><a href="#" class="end">Terms & Condition</a></li>
-                                <li><a href="#" class="end">Privacy Policy</a></li>
-                                <li><a href="#" class="end">Help</a></li>
-                            </ul>
-                                <!--<a href="#" title="К началу" class="topbutton button mt-1"><img src="img/стрелка.png" alt="^"></a>      -->                                                              
-                        </div>
-                    </div>                 
-                </div>
-            </div>
-        </footer>
+#login {font-weight: 600;}
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
-</html>
+.btn btn-primary{background-color:#0f7bff; color: white;}
+.btn-rounded {border-radius: 30px; padding-left: 25px; padding-right: 25px;}
+.btn-facebook {background-color: #3b5999; color: white; width: 160px; height: 55px; font-weight: bold;}
+.btn-twitter {background-color: #55acee; color: white; width: 160px; height: 55px; font-weight: bold;}
+.btn-login {width: 160px; height: 55px; font-weight: bold;}
+.btn-signup {font-weight: bold;}
+
+.icon {height: 32px; text-align: center;}
+.fb-icon {background: url(img/facebook.png); width: 32px;}
+.fb-icon:hover {background: url(img/facebook2.png);}
+.tw-icon {background: url(img/twitter.png); width: 32px;}
+.tw-icon:hover {background: url(img/twitter2.png);}
+.yt-icon {background: url(img/youtube.png); width: 32px;}
+.yt-icon:hover {background: url(img/youtube2.png);}
+
+.form-group {min-width: 320px; max-width: 360px;}
+.form-link a {font-size: 16px;}
+.footer-brand {color: #0f7bff; font-size: 30px; font-weight: bold;}
+.page-footer {background-color: #f5fcfd;}
+.footer h5 {color: #878a8b;}
+.footer-row {padding-left: 20%; padding-right: 20%;}
+.footer-end-links li{display: inline; padding: 10px; }
+.footer-end {padding-left: 20%; padding-right: 20%; text-align: center;}
+.topbytton {background-color: #0f7bff;}
+.info {padding-left: 0;}
+.button {
+    
+    width: 45px;
+    height: 45px;
+    background: #0f7bff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
