@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+
+body, html 
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand';
+    background-color: white;
+    text-align: center;
+}
+a {color: #929292;}
+a:hover {text-decoration: none; color: #0f7bff}
+li {list-style-type: none;} 
+h4 {font-weight: 600;}
+.navbar {font-weight: bold;}
+header {background-color: #f5fcfd;}
+.navbar-logo {color: #0f7bff; font-size: 30px;}
+.nav-item {padding-right: 15px; padding-left: 15px;}
+.text {color: #929292; font-size: 13px;}
+.head-info {font-weight: bold;}
+.zag {font-weight: bolder; position: relative;}
+.header-info {padding-right: 10%; padding-left: 10%; }
+.btn-signup {font-weight: bold;}
+.btn-rounded {border-radius: 30px; padding-left: 25px; padding-right: 25px;}
+.btn-outline-primary {width: 70px; font-weight: bold;}
+
+.header-image {width: 90%;}
+
+.icon {height: 32px; text-align: center;}
+.fb-icon {background: url(img/facebook.png); width: 32px;}
+.fb-icon:hover {background: url(img/facebook2.png);}
+.tw-icon {background: url(img/twitter.png); width: 32px;}
+.tw-icon:hover {background: url(img/twitter2.png);}
+.yt-icon {background: url(img/youtube.png); width: 32px;}
+.yt-icon:hover {background: url(img/youtube2.png);}
+
+.footer-brand {color: #0f7bff; font-size: 30px; font-weight: bold;}
+.page-footer {background-color: #f5fcfd;}
+.footer h5 {color: #878a8b;}
+.footer-row {padding-left: 20%; padding-right: 20%;}
+.footer-end-links li{display: inline; padding: 10px;}
+.footer-end {padding-left: 20%; padding-right: 20%; text-align: center; }
+.topbytton {background-color: #0f7bff;}
+.info {padding-left: 0;}
+
+.button {
+    
+    width: 45px;
+    height: 45px;
+    background: #0f7bff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}

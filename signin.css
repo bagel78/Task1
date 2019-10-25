@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+
+body, html 
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand';
+    background-color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+a {color: #929292;}
+a:hover {text-decoration: none; color: #0f7bff}
+.btn:hover {color: white;}
+li {list-style-type: none;}
+h5 {font-weight: 600;}
+.navbar {background-color: #f5fcfd; font-weight: bold;}
+.navbar-logo {color: #0f7bff; font-size: 30px;}
+.nav-item {padding-right: 15px; padding-left: 15px;}
+.navicon {color: #0f7bff;}
+
+#login {font-weight: 600;}
+
+.btn {background-color:#0f7bff; color: white;}
+.btn-rounded {border-radius: 30px; padding-left: 25px; padding-right: 25px;}
+.btn-facebook {background-color: #3b5999; color: white; width: 160px; height: 55px; font-weight: bold;}
+.btn-twitter {background-color: #55acee; color: white; width: 160px; height: 55px; font-weight: bold;}
+.btn-login {width: 160px; height: 55px; font-weight: bold;}
+.btn-signup {font-weight: bold;}
+
+.icon {height: 32px; text-align: center;}
+.fb-icon {background: url(img/facebook.png); width: 32px;}
+.fb-icon:hover {background: url(img/facebook2.png);}
+.tw-icon {background: url(img/twitter.png); width: 32px;}
+.tw-icon:hover {background: url(img/twitter2.png);}
+.yt-icon {background: url(img/youtube.png); width: 32px;}
+.yt-icon:hover {background: url(img/youtube2.png);}
+
+.form-group {min-width: 320px; max-width: 360px;}
+.form-link a {font-size: 16px;}
+.footer-brand {color: #0f7bff; font-size: 30px; font-weight: bold;}
+.page-footer {background-color: #f5fcfd;}
+.footer h5 {color: #878a8b;}
+.footer-row {padding-left: 20%; padding-right: 20%;}
+.footer-end-links li{display: inline; padding: 10px; }
+.footer-end {padding-left: 20%; padding-right: 20%; text-align: center;}
+.topbytton {background-color: #0f7bff;}
+.info {padding-left: 0;}
+.button {
+    
+    width: 45px;
+    height: 45px;
+    background: #0f7bff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
