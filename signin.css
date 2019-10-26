@@ -23,10 +23,16 @@ h5 {font-weight: 600;}
 
 .btn {background-color:#0f7bff; color: white;}
 .btn-rounded {border-radius: 30px; padding-left: 25px; padding-right: 25px;}
-.btn-facebook {background-color: #3b5999; color: white; width: 160px; height: 55px; font-weight: bold;}
-.btn-twitter {background-color: #55acee; color: white; width: 160px; height: 55px; font-weight: bold;}
+.btn-facebook {background-color: #3b5999; color: white; width: 170px; height: 55px; font-weight: bold;}
+.btn-facebook:hover {background-color: #122F99;}
+.btn-twitter {background-color: #55acee; color: white; width: 170px; height: 55px; font-weight: bold;}
+.btn-twitter:hover {background-color: #188EE7;}
 .btn-login {width: 160px; height: 55px; font-weight: bold;}
 .btn-signup {font-weight: bold;}
+
+.main-form {width: 450px;}
+.form-link a {font-size: 16px;}
+.form-control {height: 55px;}
 
 .icon {height: 32px; text-align: center;}
 .fb-icon {background: url(img/facebook.png); width: 32px;}
@@ -36,8 +42,6 @@ h5 {font-weight: 600;}
 .yt-icon {background: url(img/youtube.png); width: 32px;}
 .yt-icon:hover {background: url(img/youtube2.png);}
 
-.form-group {min-width: 320px; max-width: 360px;}
-.form-link a {font-size: 16px;}
 .footer-brand {color: #0f7bff; font-size: 30px; font-weight: bold;}
 .page-footer {background-color: #f5fcfd;}
 .footer h5 {color: #878a8b;}
