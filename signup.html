@@ -21,19 +21,19 @@
                     </button> 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item mt-2">
+                            <li class="nav-item mt-3 mb-3">
                                 <a href="homepage.html">HOME</a>
                             </li>
-                            <li class="nav-item mt-2">
+                            <li class="nav-item mt-3 mb-3">
                                 <a href="#">FEATURES</a>
                             </li>
-                            <li class="nav-item mt-2">
+                            <li class="nav-item mt-3 mb-3">
                                 <a href="#">PRICING</a>
                             </li>
-                            <li class="nav-item mt-2">
+                            <li class="nav-item mt-3 mb-3">
                                 <a href="#">PAGES</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item mt-2">
                                 <a href="signup.html" class="btn btn-signup btn-primary btn-rounded">SIGN UP</a> 
                             </li>
                         </ul>
@@ -42,39 +42,42 @@
             </nav>
         </header>
 
-        <div class="mt-5 pt-5">
+        <div class="mt-5 pt-5 mr-3 ml-3">
             <h2 id="login">Sign Up</h2><br>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                sed do eiusmod tempor incididunt ut labore <br>
             et dolore magna aliqua. Lorem ipsum dolor sit amet. </p><br>
 
-            <button class="btn btn-facebook mr-2 ml-2 mt-2">FACEBOOK</button>
-            <button class="btn btn-twitter mr-2 ml-2 mt-2">TWITTER</button>       
+            <button class="btn btn-facebook mr-4 ml-4 mt-2">FACEBOOK</button>
+            <button class="btn btn-twitter mr-4 ml-4 mt-2">TWITTER</button>       
         </div>
-        <form class="main-form">
-            <div class=" form-group mt-5 ml-auto mr-auto">
-                <p text-sm-center>OR</p>
-                <input type="text" class="form-control mt-5" placeholder="Enter full name">             
+        <form class="container d-flex justify-content-center">
+            <div class="main-form">
+                <div class=" form-group mt-5">
+                    <p text-sm-center>OR</p>
+                    <input type="text" class="form-control mt-5" placeholder="Enter full name">             
+                </div>
+                <div class="form-group">   
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <div class="form-group">   
+                    <input type="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="form-group">   
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+                <div class="form-link mb-4 "> 
+                    <p>Already have account? 
+                        <a href="signin.html">Log In</a>
+                    </p>
+                </div>
+                <button type="submit" class="btn btn-login btn-rounded btn-primary mb-5">Sign Up</button>
             </div>
-            <div class="form-group ml-auto mr-auto">   
-                <input type="email" class="form-control" placeholder="Enter Email">
-            </div>
-            <div class="form-group ml-auto mr-auto">   
-                <input type="password" class="form-control" placeholder="Password">
-            </div>
-            <div class="form-group ml-auto mr-auto">   
-                <input type="password" class="form-control" placeholder="Confirm Password">
-            </div>
-            <div class="form-link mb-4 "> 
-                <p>Already have account? 
-                    <a href="signin.html">Log In</a>
-                </p>
-            </div>
-            <button type="submit" class="btn btn-login btn-rounded btn-primary mb-5">Sign Up</button>
         </form>
+
         <!--FOOTER-->
         <footer class="page-footer">
-            <div class="container-fluid text-left">
+            <div class="container-fluid text-md-left ">
                 <div class="row footer-row">
                     <div class="col-md-12 col-lg-6 mt-5 ">
                         <a href="homepage.html" class="footer-brand">AppSon</a>
@@ -84,7 +87,7 @@
                              tempor incididunt ut labore
                         </p>
 
-                        <div class="row icon">
+                        <div class="row icon d-flex justify-content-md-start justify-content-center">
                             <div class="fb-icon">
                                 <a href=""><img src="img/пусто.png"></a>
                             </div>
@@ -95,8 +98,8 @@
                                 <a href="#"><img src="img/пусто.png"></a>
                             </div>
                         </div>
-                    </div>           
-                    <div class="col-lg-2 mt-5">
+                    </div>
+                    <div class="col-lg-2 col-md-3 mt-5">
                         <h5>Company</h5>
                         <ul class="list-unstyled">
                             <li><a href="">About Us</a></li>
@@ -105,7 +108,7 @@
                             <li><a href="">Partners</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 mt-5">
+                    <div class="col-lg-2 col-md-3 mt-5">
                         <h5>Blog</h5>
                         <ul class="list-unstyled">
                             <li><a href="">Finance</a></li>
@@ -113,7 +116,7 @@
                             <li><a href="">Mobile</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 mt-5">
+                    <div class="col-lg-2 col-md-3 mt-5">
                         <h5>Integrations</h5>
                         <ul class="list-unstyled">
                             <li><a href="">Android App</a></li>
@@ -124,7 +127,7 @@
                     </div> 
                 </div>
                 <hr>
-            </div>
+                
             <div class="footer-end">
                 <div class="container">
                     <div class="row">
