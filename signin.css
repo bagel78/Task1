@@ -7,7 +7,6 @@ body, html
     font-family: 'Quicksand';
     background-color: white;
     text-align: center;
-    overflow-x: hidden;
 }
 a, p{color: #929292;}
 a:hover {text-decoration: none; color: #0f7bff}
@@ -41,7 +40,6 @@ h5 {font-weight: 600;}
 
 .icon li {display: inline;}
 .icon {margin-top: 30px;}
-hr {min-width: 200vw; transform: translateX(-50%);}
 .footer-brand {color: #0f7bff; font-size: 35px; font-weight: bolder;}
 .page-footer {background-color: #f5fcfd;}
 .footer h5 {color: #878a8b;}
@@ -63,4 +61,8 @@ hr {min-width: 200vw; transform: translateX(-50%);}
     position: fixed;
     right: 40px;
     bottom: 20px;	
+}
+
+.button:hover {
+    background-color: #0069d9;
 }
