@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+
+body, html 
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand';
+    background-color: white;
+    text-align: center;
+}
+a, p{color: #929292;}
+a:hover {text-decoration: none; color: #0f7bff}
+.btn:hover {color: white;}
+li {list-style-type: none;}
+
+h5 {font-weight: 600;}
+.navbar {background-color: #f5fcfd; font-weight: 600; /*padding-left: 5%; padding-right: 5%;*/}
+.navbar-logo {color: #0f7bff; font-size: 35px; font-weight: bolder;}
+.nav-item {padding-right: 15px; padding-left: 15px;}
+.navicon {color: #0f7bff;}
+
+.block1 {position: relative; left: -150px;}
+.block2 {position: relative; right: -150px;}
+
+@media (max-device-width: 1450px) {
+    .block1 {position: relative; left: 0;}
+    .block2 {position: relative; right: 0;}
+}
+
+#login {font-weight: 600;}
+.or {color: black;}
+.btn {background-color:#0f7bff; color: white;}
+.btn-rounded {border-radius: 30px; padding-left: 25px; padding-right: 25px;}
+.btn-facebook {background-color: #3b5999; color: white; width: 165px; height: 55px; font-weight: bold;}
+.btn-facebook:hover {background-color: #122F99;}
+.btn-twitter {background-color: #55acee; color: white; width: 165px; height: 55px; font-weight: bold;}
+.btn-twitter:hover {background-color: #188EE7;}
+.btn-login {width: 160px; height: 55px; font-weight:600; margin-bottom: 100px;}
+.blue {color: #0f7bff;}
+
+.log-in a{font-weight: 16px;}
+.btn-signup {font-weight: 600;}
+.form {width: 360px;}
+.form-link a {font-size: 12px;}
+.form-control {height: 60px;}
+.pass {margin-right: 60px;}
+.free {margin-left: 60px;}
+
+.icon li {display: inline;}
+.icon {margin-top: 30px;}
+.footer-brand {color: #0f7bff; font-size: 35px; font-weight: bolder;}
+.page-footer {background-color: #f5fcfd;}
+.footer h5 {color: #878a8b;}
+.fot-link li {margin-top: 5px;}
+.footer-end-links li{display: inline; padding: 10px; }
+.footer-end {font-size: 14px;}
+.topbytton {background-color: #0f7bff;}
+.info {padding-left: 0;}
+.footer-margin {margin-top: 100px; margin-bottom: 90px;}
+
+.button {
+    
+    width: 45px;
+    height: 45px;
+    background: #0f7bff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;	
+}
+
+.button:hover {
+    background-color: #0069d9;
+}
