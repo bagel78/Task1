@@ -43,7 +43,10 @@ header {background: url(homepage/phone1.png), url(homepage/background.svg);
 @media (max-device-width: 1600px) {
     .block1 {position: relative; left: 0;}
     .block2 {position: relative; right: 0;}
+}
 
+@media (min-device-width: 1600px) {
+    .block1 {position: relative; left: 0;}
 }
 
 @media (max-device-width: 412px) {
@@ -63,6 +66,15 @@ header {background: url(homepage/phone1.png), url(homepage/background.svg);
 @media (max-device-width: 370px) {
     .btn-header1, .btn-header2 {height: 50px; width: 130px; padding-top: 11px; font-weight: 700; border-width: 2px;}
     .navbar-logo {color: white; font-size: 30px; font-weight: bolder; }
+}
+
+@media (min-device-width: 2300px) {
+    .btn-header2, .btn-header1 {border-color: #929292; color: #929292;}
+}
+
+@media (min-device-width: 2000px) {
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center center; background-size: 800px, 100%}
 }
 
 @media (max-device-width: 1800px) {
@@ -129,6 +141,14 @@ header {background: url(homepage/phone1.png), url(homepage/background.svg);
     .card-top1 {margin-top: 20px;}
     .card-top2 {margin-top: 20px;} 
     .card-top3 {margin-top: 20px;}
+}
+
+@media (max-device-width: 470px) {
+    .card-top1 {margin-top: 50px;}
+}
+
+@media (max-device-width: 400px) {
+    .card-top1 {margin-top: 20px;}
 }
 
 @media (max-device-width: 360px) {
