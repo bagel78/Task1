@@ -88,7 +88,7 @@ header {background: url(homepage/phone1.png), url(homepage/background.svg);
 }
 
 @media (max-device-width: 1400px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+    header {background: url(homepage/phone.png), url(homepage/background.svg); background-repeat: no-repeat; 
         position: absolute, relative; background-position: center bottom; background-size: 450px, auto}
         
 }
