@@ -18,7 +18,8 @@ ul {padding: 0;}
 .hr {background-color: white;}
 
 /*header*/
-header {background: url(homepage/phone1.png), url(homepage/background.svg); 
+.header {max-height: 1043px;}
+header {max-height: 1043px; background: url(homepage/phone1.png), url(homepage/background.svg); 
     width: 100%; height: 100%;
     background-repeat: no-repeat; background-size: auto, cover; position: absolute, relative; background-position: center bottom;}
 .navbar {font-weight: 600; padding-left: 5%; padding-right: 5%;}
@@ -68,48 +69,6 @@ header {background: url(homepage/phone1.png), url(homepage/background.svg);
     .navbar-logo {color: white; font-size: 30px; font-weight: bolder; }
 }
 
-@media (min-device-width: 2300px) {
-    .btn-header2, .btn-header1 {border-color: #929292; color: #929292;}
-}
-
-@media (min-device-width: 2000px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
-        position: absolute, relative; background-position: center bottom, center center; background-size: 800px, 100%}
-}
-
-@media (max-device-width: 1800px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
-        position: absolute, relative; background-position: center bottom; background-size: 800px, auto}
-}
-
-@media (max-device-width: 1700px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
-        position: absolute, relative; background-position: center bottom; background-size: 800px, auto}
-}
-
-@media (max-device-width: 1600px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
-        position: absolute, relative; background-position: center bottom; background-size: 650px, auto}
-    .btn-header2, .btn-header1 {border-color: #929292; color: #929292;}
-}
-
-@media (max-device-width: 1500px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
-        position: absolute, relative; background-position: center bottom; background-size: 600px, auto}
-        .btn-header1, .btn-header2 {border-color: #929292; color: #929292;}
-}
-
-@media (max-device-width: 1400px) {
-    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
-        position: absolute, relative; background-position: center bottom; background-size: 450px, auto}
-        
-}
-
-@media (max-device-width: 1300px) {
-    header {background: url(homepage/background.svg); background-repeat: no-repeat; 
-        position: relative; background-position: center center; background-size: auto}
-    
-}
 .scroll {height: 70px; width: 70px; background-color: white; 
     border-color: #dcdcdc; position: absolute; bottom:-35px; 
      left: 0; right: 0; margin: auto;}
@@ -143,25 +102,11 @@ header {background: url(homepage/phone1.png), url(homepage/background.svg);
     .card-top3 {margin-top: 20px;}
 }
 
-@media (max-device-width: 470px) {
-    .card-top1 {margin-top: 50px;}
-}
-
-@media (max-device-width: 400px) {
-    .card-top1 {margin-top: 20px;}
-}
-
-@media (max-device-width: 360px) {
-    .card-top1 {margin-bottom: 20px; padding-top: 60px;}
-    .card-top2 {margin-bottom: 20px; padding-top: 60px;} 
-    .card-top3 {margin-bottom: 0px; padding-top: 60px;}
-}
-
 
 @media (max-device-width: 340px) {
-    .card-top1 {margin-bottom: 20px; padding-top: 80px;}
-    .card-top2 {margin-bottom: 20px; padding-top: 80px;} 
-    .card-top3 {margin-bottom: 0px; padding-top: 80px;}
+    .card-top1 {margin-bottom: 20px;}
+    .card-top2 {margin-bottom: 20px;} 
+    .card-top3 {margin-bottom: 0px;}
 }
 
 /*Messaging*/
@@ -569,3 +514,103 @@ input[type="email"]::-moz-placeholder {color: white;}
     background-color: #E0E0E0;
 }
 
+@media(min-device-height: 1043px){
+    .scroll {height: 70px; width: 70px; background-color: white; 
+        border-color: #dcdcdc; position: absolute; bottom: 0;}
+}
+@media (min-device-width: 1900px) and (min-device-height: 1080px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 840px, 100%}
+}
+
+@media (min-device-width: 1900px) and (max-device-height: 1000px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 740px, 100%}
+}
+
+@media (min-device-width: 1900px) and (max-device-height: 900px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 690px, 100%}
+}
+
+@media (min-device-width: 1900px) and (max-device-height: 850px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 590px, 100%}
+}
+
+@media (min-device-width: 1900px) and (max-device-height: 800px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 540px, 100%}
+}
+
+@media (min-device-width: 1900px) and (max-device-height: 750px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 440px, 100%}
+}
+
+@media (min-device-width: 1900px) and (max-device-height: 700px){
+    header {background: url(homepage/background.svg); background-repeat: no-repeat; 
+        position: relative; background-position: center top; background-size: 100%}
+}
+
+
+
+@media (max-device-width: 1900px) and (min-device-height: 1080px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 840px, auto}
+}
+
+@media (max-device-width: 1900px) and (max-device-height: 1000px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 740px, auto}
+}
+
+@media (max-device-width: 1900px) and (max-device-height: 900px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 690px, auto}
+}
+
+@media (max-device-width: 1900px) and (max-device-height: 850px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 590px, auto}
+}
+
+@media (max-device-width: 1900px) and (max-device-height: 800px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 540px, auto}
+}
+
+@media (max-device-width: 1900px) and (max-device-height: 750px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 440px, auto}
+}
+
+@media (max-device-width: 1900px) and (max-device-height: 700px){
+    header {background: url(homepage/background.svg); background-repeat: no-repeat; 
+        position: relative; background-position: center top; background-size: auto}
+}
+
+@media (max-device-width: 1500px) and (max-device-height: 1080px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 680px, auto}
+}
+
+@media (max-device-width: 1500px) and (max-device-height: 900px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 580px, auto}
+}
+
+@media (max-device-width: 1500px) and (max-device-height: 800px){
+    header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
+        position: absolute, relative; background-position: center bottom, center top; background-size: 380px, auto}
+}
+
+@media (max-device-width: 1500px) and (max-device-height: 700px){
+    header {background: url(homepage/background.svg); background-repeat: no-repeat; 
+        position: relative; background-position: center top; background-size: auto}
+}
+
+@media (max-device-width: 1300px) {
+    header {background: url(homepage/background.svg); background-repeat: no-repeat; 
+        position: relative; background-position: center top; background-size: auto;
+}
