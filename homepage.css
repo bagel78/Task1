@@ -513,11 +513,56 @@ input[type="email"]::-moz-placeholder {color: white;}
 .button:hover {
     background-color: #E0E0E0;
 }
+@media (max-device-height: 1080px){
 
-@media(min-device-height: 1043px){
     .scroll {height: 70px; width: 70px; background-color: white; 
-        border-color: #dcdcdc; position: absolute; bottom: 0;}
+        border-color: #dcdcdc; position: absolute; bottom:0px; 
+        left: 0; right: 0; margin: auto;}
 }
+
+@media (max-device-height: 1075px){
+
+.scroll {height: 70px; width: 70px; background-color: white; 
+    border-color: #dcdcdc; position: absolute; bottom:-5px; 
+     left: 0; right: 0; margin: auto;}
+}
+
+@media (max-device-height: 1070px){
+
+    .scroll {height: 70px; width: 70px; background-color: white; 
+        border-color: #dcdcdc; position: absolute; bottom:-10px; 
+         left: 0; right: 0; margin: auto;}
+    }
+
+@media (max-device-height: 1065px){
+
+    .scroll {height: 70px; width: 70px; background-color: white; 
+        border-color: #dcdcdc; position: absolute; bottom:-15px; 
+            left: 0; right: 0; margin: auto;}
+    }  
+    
+@media (max-device-height: 1060px){
+
+    .scroll {height: 70px; width: 70px; background-color: white; 
+        border-color: #dcdcdc; position: absolute; bottom:-20px; 
+            left: 0; right: 0; margin: auto;}
+    }
+
+@media (max-device-height: 1055px){
+
+    .scroll {height: 70px; width: 70px; background-color: white; 
+        border-color: #dcdcdc; position: absolute; bottom:-25px; 
+            left: 0; right: 0; margin: auto;}
+    }
+
+@media (max-device-height: 1050px){
+
+    .scroll {height: 70px; width: 70px; background-color: white; 
+        border-color: #dcdcdc; position: absolute; bottom:-30px; 
+            left: 0; right: 0; margin: auto;}
+    }
+
+
 @media (min-device-width: 1900px) and (min-device-height: 1080px){
     header {background: url(homepage/phone1.png), url(homepage/background.svg); background-repeat: no-repeat; 
         position: absolute, relative; background-position: center bottom, center top; background-size: 840px, 100%}
